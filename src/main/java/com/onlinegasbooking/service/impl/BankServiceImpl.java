@@ -30,20 +30,24 @@ public class BankServiceImpl implements IBankService {
 	 * @throws BankAlreadyExistsException
 	 */
 
-	final static Logger logger=LoggerFactory.getLogger(BankServiceImpl.class);
+	final static Logger logger = LoggerFactory.getLogger(BankServiceImpl.class);
+
 	@Override
 	public Bank insertBank(Bank bank) throws BankAlreadyExistsException {
 
 		Bank b1 = null;
-//		Optional<Bank> b = bankRepository.findBankByName(bank.getBankName());
-//		if (b.get().getBankName().equalsIgnoreCase(bank.getBankName())) {
-//			logger.error("In insert bank method");
-//			throw new BankAlreadyExistsException("Bank Already exists By Name :" + bank.getBankName());
-//		} else {
-//			logger.info("Saving bank details in the database");
+		Optional<Bank> b = bankRepository.findBankByName(bank.getBankName());
+		if (!b.isEmpty()) {
+			if (b.get().getBankName().equalsIgnoreCase(bank.getBankName())) {
+				logger.error("In insert bank method");
+				throw new BankAlreadyExistsException("Bank Already exists By Name :" + bank.getBankName());
+			}
+
+		} else {
+			logger.info("Saving bank details in the database");
 			b1 = bankRepository.save(bank);
-//		}
-//		logger.info("Returning bank details from the database");
+		}
+		logger.info("Returning bank details from the database");
 		return b1;
 	}
 
@@ -53,7 +57,7 @@ public class BankServiceImpl implements IBankService {
 				.orElseThrow(() -> new ResourceNotFoundException("Bank deosn't exists by Id :" + bank.getBankId()));
 		b.setBankName(bank.getBankName());
 		b.setAddress(bank.getAddress());
-		bankRepository.deleteById(bank.getBankId());
+//		bankRepository.deleteById(bank.getBankId());
 		logger.info("Updating bank details from Database");
 		return bankRepository.save(b);
 	}

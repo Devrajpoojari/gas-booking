@@ -1,5 +1,6 @@
 package com.onlinegasbooking.service;
 
+import java.text.ParseException;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -18,6 +19,7 @@ public interface IAdminService {
 
 	public List<GasBooking> getAllBookings(long customerId) throws ResourceNotFoundException;
 
-//	public List<GasBooking> getAllBookingsForDays(long customerId, LocalDate fromDate, LocalDate toDate);
+	public List<GasBooking> getAllBookingsForDays(long customerId, LocalDate fromDate, LocalDate toDate)
+			throws ResourceNotFoundException, ParseException;
 
 }

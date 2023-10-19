@@ -1,7 +1,10 @@
 package com.onlinegasbooking.service.impl;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -62,29 +65,33 @@ public class AdminServiceImpl implements IAdminService {
 
 	@Override
 	public List<GasBooking> getAllBookings(long customerId) throws ResourceNotFoundException {
-		Customer c= customerRepository.findById(customerId)
+		Customer c = customerRepository.findById(customerId)
 				.orElseThrow(() -> new ResourceNotFoundException("Customer not found with id : " + customerId));
-		if(c.getBookings().isEmpty()) {
+		if (c.getBookings().isEmpty()) {
 			throw new ResourceNotFoundException("No Bookings are availibale for this customer");
-		}else {
+		} else {
 			return c.getBookings();
 		}
 	}
 
-//	@Override
-//	public List<GasBooking> getAllBookingsForDays(long customerId, LocalDate fromDate, LocalDate toDate) throws ResourceNotFoundException {
-//		Customer c= customerRepository.findById(customerId)
-//				.orElseThrow(() -> new ResourceNotFoundException("Customer not found with id : " + customerId));
-//		
-//		List<GasBooking> listOfBookings=c.getBookings();
-//		List<GasBooking> list=new ArrayList<>();
-//		listOfBookings.stream().forEach(booking->{
-//			if (fromDate.compareTo(toDate)) {
-//				
-//			}
-//		});
-//		
-//		return null;
-//	}
+	@Override
+	public List<GasBooking> getAllBookingsForDays(long customerId, LocalDate fromDate, LocalDate toDate)
+			throws ResourceNotFoundException, ParseException {
+		Customer c = customerRepository.findById(customerId)
+				.orElseThrow(() -> new ResourceNotFoundException("Customer not found with id : " + customerId));
+
+		List<GasBooking> listOfBookings = c.getBookings();
+		List<GasBooking> list = new ArrayList<>();
+		for (GasBooking g : listOfBookings) {
+			SimpleDateFormat sd = new SimpleDateFormat("MM/dd/yyyy");
+			Date fDate = sd.parse(fromDate.toString());
+			Date tDate = sd.parse(toDate.toString());
+			Date reqDate = sd.parse(g.getBookingDate().toString());
+			if (reqDate.compareTo(fDate) >= 0 && reqDate.compareTo(tDate) <= 0) {
+				list.add(g);
+			}
+		}
+		return list;
+	}
 
 }
