@@ -1,0 +1,246 @@
+2023-10-18 13:51:25,153 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 21856 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:51:25,154 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:51:25,676 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:51:25,676 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:51:25,707 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:51:25,772 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:51:25,780 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-52 - Starting...
+2023-10-18 13:51:26,024 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-52 - Start completed.
+2023-10-18 13:51:26,025 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:51:26,029 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:51:26,030 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:51:26,224 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:51:26,549 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.493 seconds (JVM running for 2532.712)
+2023-10-18 13:51:26,551 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:52:51,145 INFO org.apache.catalina.core.StandardService [Thread-205] Stopping service [Tomcat]
+2023-10-18 13:52:51,156 INFO com.zaxxer.hikari.HikariDataSource [Thread-205] HikariPool-52 - Shutdown initiated...
+2023-10-18 13:52:51,159 INFO com.zaxxer.hikari.HikariDataSource [Thread-205] HikariPool-52 - Shutdown completed.
+2023-10-18 13:52:51,447 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 21856 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:52:51,448 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:52:51,892 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:52:51,892 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:52:51,940 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:52:52,006 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:52:52,014 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-53 - Starting...
+2023-10-18 13:52:52,208 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-53 - Start completed.
+2023-10-18 13:52:52,210 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:52:52,216 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:52:52,217 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:52:52,466 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:52:53,103 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.797 seconds (JVM running for 2619.266)
+2023-10-18 13:52:53,106 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:53:21,222 INFO org.apache.catalina.core.StandardService [Thread-209] Stopping service [Tomcat]
+2023-10-18 13:53:21,228 INFO com.zaxxer.hikari.HikariDataSource [Thread-209] HikariPool-53 - Shutdown initiated...
+2023-10-18 13:53:21,231 INFO com.zaxxer.hikari.HikariDataSource [Thread-209] HikariPool-53 - Shutdown completed.
+2023-10-18 13:53:21,350 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 21856 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:53:21,350 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:53:21,713 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:53:21,713 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:53:21,744 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:53:21,792 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:53:21,797 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-54 - Starting...
+2023-10-18 13:53:21,925 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-54 - Start completed.
+2023-10-18 13:53:21,925 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:53:21,929 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:53:21,930 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:53:22,122 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:53:22,462 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.151 seconds (JVM running for 2648.626)
+2023-10-18 13:53:22,464 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:54:02,882 INFO org.apache.catalina.core.StandardService [Thread-213] Stopping service [Tomcat]
+2023-10-18 13:54:02,887 INFO com.zaxxer.hikari.HikariDataSource [Thread-213] HikariPool-54 - Shutdown initiated...
+2023-10-18 13:54:02,889 INFO com.zaxxer.hikari.HikariDataSource [Thread-213] HikariPool-54 - Shutdown completed.
+2023-10-18 13:54:02,996 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 21856 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:54:02,997 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:54:03,388 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:54:03,389 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:54:03,427 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:54:03,481 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:54:03,490 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-55 - Starting...
+2023-10-18 13:54:03,675 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-55 - Start completed.
+2023-10-18 13:54:03,675 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:54:03,681 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:54:03,682 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:54:03,917 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:54:04,314 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.352 seconds (JVM running for 2690.477)
+2023-10-18 13:54:04,316 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:54:30,589 INFO org.apache.catalina.core.StandardService [Thread-217] Stopping service [Tomcat]
+2023-10-18 13:54:30,594 INFO com.zaxxer.hikari.HikariDataSource [Thread-217] HikariPool-55 - Shutdown initiated...
+2023-10-18 13:54:30,597 INFO com.zaxxer.hikari.HikariDataSource [Thread-217] HikariPool-55 - Shutdown completed.
+2023-10-18 13:54:30,727 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 21856 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:54:30,728 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:54:31,153 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:54:31,153 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:54:31,191 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:54:31,246 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:54:31,258 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-56 - Starting...
+2023-10-18 13:54:31,424 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-56 - Start completed.
+2023-10-18 13:54:31,425 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:54:31,431 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:54:31,432 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:54:31,655 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:54:31,974 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.294 seconds (JVM running for 2718.138)
+2023-10-18 13:54:31,976 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:55:08,257 INFO org.apache.catalina.core.StandardService [Thread-221] Stopping service [Tomcat]
+2023-10-18 13:55:08,264 INFO com.zaxxer.hikari.HikariDataSource [Thread-221] HikariPool-56 - Shutdown initiated...
+2023-10-18 13:55:08,266 INFO com.zaxxer.hikari.HikariDataSource [Thread-221] HikariPool-56 - Shutdown completed.
+2023-10-18 13:55:08,404 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 21856 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:55:08,404 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:55:08,760 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:55:08,760 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:55:08,790 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:55:08,827 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:55:08,832 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-57 - Starting...
+2023-10-18 13:55:08,947 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-57 - Start completed.
+2023-10-18 13:55:08,947 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:55:08,951 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:55:08,951 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:55:09,152 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:55:09,476 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.116 seconds (JVM running for 2755.64)
+2023-10-18 13:55:09,478 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:55:29,393 INFO org.apache.catalina.core.StandardService [Thread-225] Stopping service [Tomcat]
+2023-10-18 13:55:29,399 INFO com.zaxxer.hikari.HikariDataSource [Thread-225] HikariPool-57 - Shutdown initiated...
+2023-10-18 13:55:29,402 INFO com.zaxxer.hikari.HikariDataSource [Thread-225] HikariPool-57 - Shutdown completed.
+2023-10-18 13:55:29,514 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 21856 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:55:29,516 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:55:29,916 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:55:29,917 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:55:29,946 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:55:29,985 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:55:29,991 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-58 - Starting...
+2023-10-18 13:55:30,137 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-58 - Start completed.
+2023-10-18 13:55:30,138 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:55:30,143 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:55:30,144 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:55:30,350 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:55:30,678 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.202 seconds (JVM running for 2776.842)
+2023-10-18 13:55:30,680 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:56:01,896 INFO org.apache.catalina.core.StandardService [Thread-229] Stopping service [Tomcat]
+2023-10-18 13:56:01,901 INFO com.zaxxer.hikari.HikariDataSource [Thread-229] HikariPool-58 - Shutdown initiated...
+2023-10-18 13:56:01,904 INFO com.zaxxer.hikari.HikariDataSource [Thread-229] HikariPool-58 - Shutdown completed.
+2023-10-18 13:56:02,053 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 21856 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:56:02,053 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:56:02,507 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:56:02,507 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:56:02,554 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:56:02,612 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:56:02,618 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-59 - Starting...
+2023-10-18 13:56:02,757 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-59 - Start completed.
+2023-10-18 13:56:02,757 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:56:02,761 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:56:02,762 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:56:02,939 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:56:03,256 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.257 seconds (JVM running for 2809.42)
+2023-10-18 13:56:03,257 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:56:40,424 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-18 13:57:46,586 INFO org.apache.catalina.core.StandardService [Thread-233] Stopping service [Tomcat]
+2023-10-18 13:57:46,587 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [Thread-233] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-18 13:57:46,595 INFO com.zaxxer.hikari.HikariDataSource [Thread-233] HikariPool-59 - Shutdown initiated...
+2023-10-18 13:57:46,598 INFO com.zaxxer.hikari.HikariDataSource [Thread-233] HikariPool-59 - Shutdown completed.
+2023-10-18 13:58:43,689 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 24064 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:58:43,691 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:58:45,798 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:58:45,800 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:58:45,943 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:58:46,152 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:58:46,236 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-18 13:58:46,465 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-18 13:58:46,622 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-10-18 13:58:46,874 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-10-18 13:58:46,903 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:58:47,058 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:58:47,061 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:58:47,808 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:58:48,756 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 5.67 seconds (JVM running for 6.916)
+2023-10-18 13:58:48,760 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:59:02,833 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-18 13:59:42,565 INFO org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2023-10-18 13:59:42,568 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-18 13:59:42,585 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-10-18 13:59:42,590 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-10-18 13:59:42,721 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 24064 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 13:59:42,721 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 13:59:43,505 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 13:59:43,506 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 13:59:43,544 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 13:59:43,594 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 13:59:43,601 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-10-18 13:59:43,731 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-10-18 13:59:43,731 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 13:59:43,738 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 13:59:43,740 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 13:59:44,011 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 13:59:44,405 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-10-18 13:59:44,739 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-10-18 13:59:44,771 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-10-18 13:59:44,802 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-10-18 13:59:44,957 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 2.299 seconds (JVM running for 63.119)
+2023-10-18 13:59:44,961 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 13:59:47,520 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-18 14:02:23,562 INFO org.apache.catalina.core.StandardService [Thread-7] Stopping service [Tomcat]
+2023-10-18 14:02:23,568 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-7] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-18 14:02:23,609 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2023-10-18 14:02:23,614 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2023-10-18 14:02:23,788 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 24064 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 14:02:23,789 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 14:02:24,476 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 14:02:24,476 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 14:02:24,511 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 14:02:24,560 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 14:02:24,570 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-10-18 14:02:24,707 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-10-18 14:02:24,708 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 14:02:24,714 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 14:02:24,715 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 14:02:24,975 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 14:02:25,222 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-10-18 14:02:25,570 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-10-18 14:02:25,570 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-10-18 14:02:25,574 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-10-18 14:02:25,602 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.87 seconds (JVM running for 223.767)
+2023-10-18 14:02:25,606 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 14:02:40,408 INFO org.apache.catalina.core.StandardService [Thread-11] Stopping service [Tomcat]
+2023-10-18 14:02:40,415 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2023-10-18 14:02:40,418 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2023-10-18 14:02:40,596 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 24064 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 14:02:40,598 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 14:02:41,286 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 14:02:41,286 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 14:02:41,322 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 14:02:41,382 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 14:02:41,392 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-10-18 14:02:41,529 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-10-18 14:02:41,530 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 14:02:41,536 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 14:02:41,537 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 14:02:41,735 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 14:02:41,956 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-10-18 14:02:42,216 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-10-18 14:02:42,218 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-10-18 14:02:42,225 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-10-18 14:02:42,247 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.74 seconds (JVM running for 240.412)
+2023-10-18 14:02:42,250 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 14:02:42,688 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-18 14:04:06,834 INFO org.apache.catalina.core.StandardService [Thread-15] Stopping service [Tomcat]
+2023-10-18 14:04:06,835 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-15] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-18 14:04:06,843 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2023-10-18 14:04:06,847 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2023-10-18 14:04:06,954 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Starting GasBookingApplication using Java 17.0.1 on inlen8520027115 with PID 24064 (C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\W3 Softtech\gas-booking)
+2023-10-18 14:04:06,954 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-18 14:04:07,491 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-10-18 14:04:07,491 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-18 14:04:07,526 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-18 14:04:07,576 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-18 14:04:07,587 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-10-18 14:04:07,740 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-10-18 14:04:07,740 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-18 14:04:07,745 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Admin
+2023-10-18 14:04:07,747 WARN org.hibernate.cfg.AnnotationBinder [restartedMain] HHH000137: Root entity should not hold a PrimaryKeyJoinColum(s), will be ignored: com.onlinegasbooking.entity.Customer
+2023-10-18 14:04:07,970 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-18 14:04:08,174 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-10-18 14:04:08,476 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-10-18 14:04:08,477 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-10-18 14:04:08,482 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-10-18 14:04:08,502 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Started GasBookingApplication in 1.592 seconds (JVM running for 326.668)
+2023-10-18 14:04:08,504 INFO com.onlinegasbooking.GasBookingApplication [restartedMain] Application is Running...........
+2023-10-18 14:04:11,787 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-18 16:28:57,058 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-5 housekeeper] HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=49m17s720ms881µs800ns).
