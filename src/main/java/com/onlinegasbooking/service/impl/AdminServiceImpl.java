@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.onlinegasbooking.entity.Admin;
 import com.onlinegasbooking.entity.Customer;
@@ -19,6 +20,7 @@ import com.onlinegasbooking.repository.IAdminRepository;
 import com.onlinegasbooking.repository.ICustomerRepository;
 import com.onlinegasbooking.service.IAdminService;
 
+@Service
 public class AdminServiceImpl implements IAdminService {
 
 	@Autowired
@@ -51,7 +53,6 @@ public class AdminServiceImpl implements IAdminService {
 		ad.setPassword(admin.getPassword());
 		ad.setUserId(admin.getUserId());
 		ad.setUserName(admin.getUserName());
-		adminRepository.deleteById(ad.getUserId());
 		return adminRepository.save(ad);
 	}
 
