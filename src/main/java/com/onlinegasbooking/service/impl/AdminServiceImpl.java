@@ -84,7 +84,7 @@ public class AdminServiceImpl implements IAdminService {
 		List<GasBooking> listOfBookings = c.getBookings();
 		List<GasBooking> list = new ArrayList<>();
 		for (GasBooking g : listOfBookings) {
-			SimpleDateFormat sd = new SimpleDateFormat("MM/dd/yyyy");
+			SimpleDateFormat sd = new SimpleDateFormat("yyyy/MM/dd");
 			Date fDate = sd.parse(fromDate.toString());
 			Date tDate = sd.parse(toDate.toString());
 			Date reqDate = sd.parse(g.getBookingDate().toString());

@@ -62,12 +62,14 @@ public class AdminController {
 
 	@GetMapping("/get-all-bookings-for-days/{customerId}/{fromDate}/{toDate}")
 	public ResponseEntity<List<GasBooking>> getAllBookingsForDays(@PathVariable long customerId,
-			@PathVariable LocalDate fromDate, @PathVariable LocalDate toDate) throws Exception {
+			@PathVariable String fromDate, @PathVariable String toDate) throws Exception {
+
 		if (fromDate == null && toDate == null && customerId == 0) {
 			throw new Exception("Some thing went wrong in inputs");
 		} else {
 			return new ResponseEntity<List<GasBooking>>(
-					adminService.getAllBookingsForDays(customerId, fromDate, toDate), HttpStatus.OK);
+					adminService.getAllBookingsForDays(customerId, LocalDate.parse(fromDate), LocalDate.parse(toDate)),
+					HttpStatus.OK);
 
 		}
 

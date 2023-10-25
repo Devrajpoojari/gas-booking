@@ -26,7 +26,7 @@ public class CustomerServiceImpl implements ICustomerService {
 		if (c.isPresent()) {
 			throw new CustomerAlreadyExistsException("Customer already present with name : " + customer.getUserName());
 		} else {
-			customer.setAccountNumber((long) Math.random());
+			customer.setAccountNumber((long) Math.floor(Math.random() * 9_000_000_000L) + 1_000_000_000L);
 			return customerRepository.save(customer);
 		}
 
@@ -42,6 +42,8 @@ public class CustomerServiceImpl implements ICustomerService {
 		c.setUserName(customer.getUserName());
 		c.setPassword(customer.getPassword());
 		c.setIfscNo(customer.getIfscNo());
+		c.setCylinder(customer.getCylinder());
+		c.setBookings(customer.getBookings());
 
 		return customerRepository.save(c);
 	}

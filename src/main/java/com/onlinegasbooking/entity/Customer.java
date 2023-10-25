@@ -9,6 +9,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.PrimaryKeyJoinColumn;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
@@ -35,6 +37,7 @@ public class Customer extends AbstractUser {
 	
 	private String ifscNo;
 	
+	@JsonBackReference
 	@OneToMany(cascade = CascadeType.MERGE,fetch = FetchType.LAZY,mappedBy ="customer" )
 	private List<GasBooking> bookings;
 
