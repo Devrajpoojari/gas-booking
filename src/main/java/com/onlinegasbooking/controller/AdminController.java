@@ -1,11 +1,13 @@
 package com.onlinegasbooking.controller;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,6 +21,7 @@ import com.onlinegasbooking.entity.Admin;
 import com.onlinegasbooking.entity.GasBooking;
 import com.onlinegasbooking.exceptions.ResourceNotFoundException;
 import com.onlinegasbooking.service.IAdminService;
+
 
 @RestController
 @RequestMapping("/api/admin")
@@ -63,16 +66,16 @@ public class AdminController {
 	@GetMapping("/get-all-bookings-for-days/{customerId}/{fromDate}/{toDate}")
 	public ResponseEntity<List<GasBooking>> getAllBookingsForDays(@PathVariable long customerId,
 			@PathVariable String fromDate, @PathVariable String toDate) throws Exception {
-
 		if (fromDate == null && toDate == null && customerId == 0) {
 			throw new Exception("Some thing went wrong in inputs");
 		} else {
+			System.out.println("Inside the controller" + LocalDate.now());
+			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MM-yyyy");
+			System.out.println(LocalDate.parse(fromDate));
 			return new ResponseEntity<List<GasBooking>>(
-					adminService.getAllBookingsForDays(customerId, LocalDate.parse(fromDate), LocalDate.parse(toDate)),
+					adminService.getAllBookingsForDays(customerId, LocalDate.parse(fromDate,formatter), LocalDate.parse(toDate,formatter)),
 					HttpStatus.OK);
-
 		}
-
 	}
 
 }

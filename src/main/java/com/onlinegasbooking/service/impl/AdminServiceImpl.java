@@ -84,10 +84,12 @@ public class AdminServiceImpl implements IAdminService {
 		List<GasBooking> listOfBookings = c.getBookings();
 		List<GasBooking> list = new ArrayList<>();
 		for (GasBooking g : listOfBookings) {
-			SimpleDateFormat sd = new SimpleDateFormat("yyyy/MM/dd");
+			System.out.println("Inside the box1 ");
+			SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
 			Date fDate = sd.parse(fromDate.toString());
 			Date tDate = sd.parse(toDate.toString());
 			Date reqDate = sd.parse(g.getBookingDate().toString());
+			System.out.println("Inside the box2");
 			if (reqDate.compareTo(fDate) >= 0 && reqDate.compareTo(tDate) <= 0) {
 				list.add(g);
 			}

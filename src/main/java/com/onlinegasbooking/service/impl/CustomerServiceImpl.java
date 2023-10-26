@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.onlinegasbooking.entity.Customer;
@@ -18,6 +20,9 @@ public class CustomerServiceImpl implements ICustomerService {
 
 	@Autowired
 	private ICustomerRepository customerRepository;
+	
+	@Autowired
+	private BCryptPasswordEncoder bCryptPasswordEncoder;
 
 	@Override
 	public Customer insertCustomer(Customer customer) throws CustomerAlreadyExistsException {
@@ -27,6 +32,7 @@ public class CustomerServiceImpl implements ICustomerService {
 			throw new CustomerAlreadyExistsException("Customer already present with name : " + customer.getUserName());
 		} else {
 			customer.setAccountNumber((long) Math.floor(Math.random() * 9_000_000_000L) + 1_000_000_000L);
+			customer.setPassword(bCryptPasswordEncoder.encode(customer.getPassword()));
 			return customerRepository.save(customer);
 		}
 
@@ -83,6 +89,11 @@ public class CustomerServiceImpl implements ICustomerService {
 		else {
 			throw new InvalidCredentials("Username or password is Invalid");
 		}
+	}
+	
+	@Bean
+	public BCryptPasswordEncoder getEncodedpassowrd() {
+		return new BCryptPasswordEncoder();
 	}
 
 }
